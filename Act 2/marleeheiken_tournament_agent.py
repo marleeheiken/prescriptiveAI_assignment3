@@ -2,7 +2,7 @@
 """
 Tournament Agent: Improved Agent
 Student: Marlee Heiken
-Generated: 2026-02-14 11:28:50
+Generated: 2026-02-14 11:57:04
 
 Evolution Details:
 - Generations: 100
@@ -40,7 +40,7 @@ class MarleeHeikenAgent(Agent):
     def choose_action(self) -> bool:
         """
         IMPROVED decision logic - AGGRESSIVE VERSION
-        More likely to retaliate, less exploitable
+        More likely to retaliate, less exploitablegit
         """
         
         # First 3 rounds: use initial cooperation gene
