@@ -2,12 +2,12 @@
 """
 Tournament Agent: Improved Agent
 Student: Marlee Heiken
-Generated: 2026-02-13 22:51:01
+Generated: 2026-02-14 11:28:50
 
 Evolution Details:
 - Generations: 100
 - Final Fitness: N/A
-- Trained against: Pavlov, Always Invest, Always Undercut, Generous Tit-for-Tat, Hard Majority...
+- Trained against: Random (0.5), Suspicious Tit-for-Tat, Random (0.9), Gradual, Pavlov...
 
 Strategy: Cooperates with cooperative opponents but retaliates harshly against defectors
 """
@@ -22,12 +22,12 @@ class MarleeHeikenAgent(Agent):
     
     Cooperates with cooperative opponents but retaliates harshly against defectors
     
-    Evolved Genes: [0.7559765867303226, 0.5401606078484164, 1.0, 1.0, 0.16372069226057695, 0.0]
+    Evolved Genes: [1.0, 1.0, 0.37187168181964114, 0.0, 0.17792577502336038, 0.34810823929864965]
     """
     
     def __init__(self):
         # These genes were evolved through 100 generations
-        self.genes = [0.7559765867303226, 0.5401606078484164, 1.0, 1.0, 0.16372069226057695, 0.0]
+        self.genes = [1.0, 1.0, 0.37187168181964114, 0.0, 0.17792577502336038, 0.34810823929864965]
         
         # Required for tournament compatibility
         self.student_name = "Marlee Heiken"
